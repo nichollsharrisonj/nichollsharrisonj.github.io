@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Slideshow</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .slideshow-container {
+        position: relative;
+        max-width: 800px;
+        margin: auto;
+      }
+      .slide {
+        display: none;
+      }
+      .slide.active {
+        display: block;
+      }
+      img {
+        width: 100%;
+        max-height: 500px;
+        object-fit: contain;
+      }
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      .caption {
+        text-align: center;
+        padding: 10px;
+      }
+      .back-link {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Portfolio Slideshow</h1>
+
+    <div class="slideshow-container">
+      <div class="slide">
+        <img src="assets/slide1.jpg" alt="Slide 1" />
+        <div class="caption">Project 1 Description</div>
+      </div>
+
+      <div class="slide">
+        <img src="assets/slide2.gif" alt="Slide 2" />
+        <div class="caption">Project 2 Description</div>
+      </div>
+
+      <div class="slide">
+        <img src="assets/slide3.jpg" alt="Slide 3" />
+        <div class="caption">Project 3 Description</div>
+      </div>
+
+      <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <div class="back-link">
+      <a href="index.html">← Back to main page</a>
+    </div>
+
+    <script>
+      let slideIndex = 0;
+      showSlide(slideIndex);
+
+      function changeSlide(n) {
+        showSlide((slideIndex += n));
+      }
+
+      function showSlide(n) {
+        let slides = document.getElementsByClassName("slide");
+
+        if (n >= slides.length) {
+          slideIndex = 0;
+        }
+        if (n < 0) {
+          slideIndex = slides.length - 1;
+        }
+
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].classList.remove("active");
+        }
+
+        slides[slideIndex].classList.add("active");
+      }
+
+      // Show the first slide when the page loads
+      document.addEventListener("DOMContentLoaded", function () {
+        showSlide(slideIndex);
+      });
+    </script>
+  </body>
+</html>
