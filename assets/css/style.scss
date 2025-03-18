@@ -1,0 +1,392 @@
+@import "{{ site.theme }}";
+
+// Custom styles for Harrison's portfolio
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #2c3e50;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.3em;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+h4 {
+  font-size: 1.1em;
+  margin-top: 1.1em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1.2em;
+  max-width: 70ch;
+  line-height: 1.7;
+}
+
+a {
+  color: #1a73e8;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.project-links {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.project-links a {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #005b96;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.project-links a:hover {
+  background-color: #003d66;
+  transform: translateY(-2px);
+}
+
+body .experience-item,
+.wrapper .experience-item,
+section .experience-item,
+.experience-item {
+  margin-bottom: 25px !important;
+  margin-left: 20px !important;
+  border-left: 4px solid #005b96 !important;
+  padding-left: 15px !important;
+  position: relative !important;
+  display: block !important;
+  box-sizing: border-box !important;
+  overflow: visible !important;
+}
+
+body .experience-item h3,
+.wrapper .experience-item h3,
+section .experience-item h3,
+.experience-item h3 {
+  margin-bottom: 5px !important;
+  border-bottom: none !important;
+}
+
+.experience-item strong {
+  font-size: 0.9em;
+  color: #555;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.download-button {
+  display: inline-block;
+  margin: 5px 10px 5px 0;
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.download-button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.view-button {
+  display: inline-block;
+  margin: 5px 0;
+  padding: 8px 12px;
+  background-color: #0366d6;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.view-button:hover {
+  background-color: #0250a0;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+blockquote {
+  background-color: #f9f9f9;
+  border-left: 4px solid #1a73e8;
+  padding: 15px 20px;
+  margin: 25px 0;
+  font-style: italic;
+  color: #555;
+  border-radius: 0 4px 4px 0;
+}
+
+ul {
+  padding-left: 20px;
+  margin-bottom: 1.5em;
+}
+
+li {
+  margin-bottom: 0.8em;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  .project-links {
+    flex-direction: column;
+
+    a {
+      margin-right: 0;
+      text-align: center;
+    }
+  }
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #777;
+  border-top: 1px solid #eaecef;
+  padding-top: 20px;
+}
+
+// Specific section styling
+#creative-philosophy {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 30px 0;
+}
+
+// Project sections
+.project-section {
+  margin-bottom: 40px;
+
+  h3 {
+    margin-bottom: 15px;
+  }
+}
+
+// Section spacing
+section {
+  margin-bottom: 2.5em;
+}
+
+// Contact section
+#contact {
+  margin-top: 3em;
+}
+
+// Sidebar contact links
+.sidebar-contact {
+  margin-top: 30px;
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: 10px;
+
+      a {
+        display: flex;
+        align-items: center;
+        padding: 5px 0;
+        color: #666;
+        transition: color 0.2s;
+
+        &:hover {
+          color: #1a73e8;
+          text-decoration: none;
+        }
+
+        span {
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+}
+
+// Fix for small screens
+@media print, screen and (max-width: 960px) {
+  div.wrapper {
+    width: auto;
+    margin: 0;
+  }
+
+  header,
+  section,
+  footer {
+    float: none;
+    position: static;
+    width: auto;
+  }
+
+  section {
+    padding: 20px 0;
+    margin: 0 0 20px;
+  }
+
+  header {
+    padding-right: 0;
+  }
+
+  .sidebar-contact {
+    margin: 20px 0;
+  }
+}
+
+// Add SVG icon placeholders until we get the actual icons
+.svg-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #666;
+  border-radius: 2px;
+}
+
+// GIF Gallery
+.gif-gallery {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+  margin: 25px 0 !important;
+  width: 100% !important;
+}
+
+.gif-gallery .gif-tile {
+  flex: 0 0 23% !important;
+  width: 23% !important;
+  margin-right: 1% !important;
+  margin-bottom: 20px !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  float: left !important; /* Adding float as a fallback */
+}
+
+.gif-gallery .gif-tile img {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  border-radius: 8px 8px 0 0 !important;
+  max-height: 80px !important;
+  object-fit: cover !important;
+}
+
+.gif-gallery .gif-tile p {
+  margin: 0 !important;
+  padding: 8px !important;
+  text-align: center !important;
+  background-color: #f8f9fa !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  color: #2c3e50 !important;
+}
+
+@media (max-width: 768px) {
+  .gif-gallery .gif-tile {
+    flex: 0 0 48% !important;
+    width: 48% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .gif-gallery .gif-tile {
+    flex: 0 0 100% !important;
+    width: 100% !important;
+  }
+}
+
+// Custom styles
+header img[src*="profile.jpg"],
+.wrapper header img {
+  border-radius: 50% !important;
+  max-width: 80px !important;
+  width: 80px !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto 15px !important;
+  border: 2px solid #f5f5f5 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12) !important;
+}
