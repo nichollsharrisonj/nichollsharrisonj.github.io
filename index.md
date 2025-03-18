@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Harrison Nicholls
 
 ## About
@@ -8,38 +12,38 @@ I'm a 2023 [Steve Jobs Archive Fellow](https://stevejobsarchive.com/) with a B.A
 
 I'm building a novel approach to music composition using generative grammars that puts artists at the center of the process. While many new digital composition tools focus on leveraging AI trained on existing musical works, ToneGram proposes a different - but still generative - approach that preserves creative ownership.
 
-In computer science, a "grammar" is a set of rules that describes a set of symbols. My idea in creating ToneGram is to apply Context-Free Grammars to music composition, where musical phrases have structure that can be described grammatically.
-
-A grammar is just a set of replacement rules that transform an initial symbol into a sequence of other symbols. With ToneGram, these symbols represent musical elements—from individual notes to entire phrases or song structures. As the composer, you design the grammar that generates music with the characteristics you want.
-
-I'm also developing a collaborative dimension where users can contribute fragments to a public archive, with other users building grammars that incorporate these fragments into their own works. This way, in contrast to the problematic use of works without permission as training data for AI music generation, the original fragment authors are credited automatically.
-
-<div class="project-links">
-  <a href="assets/tonegram-overview.pdf" target="_blank">Project Overview PDF</a>
-<br>
-<a href="https://docs.google.com/presentation/d/1sl_fkNFAMvt3iWnSvBUsd_v2g81E6ExbCbt0efYakUY/edit?usp=sharing" target="_blank">Early Prototype Slides</a>
-<br>
 <a href="https://www.youtube.com/watch?v=mqZ5z6jlfKc&t=167s" target="_blank">Watch SJA Talk</a>
 
-</div>
-
-<div class="video-container" style="margin-bottom: 50px">
+<div class="video-container" style="margin-bottom: 20px">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/mqZ5z6jlfKc?start=40" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### Some Visuals from Version 1
+My idea in creating ToneGram is to apply Context-Free Grammars to music composition, where musical phrases have structure that can be described grammatically.
+
+A "grammar" in computer-science terms is a set of replacement rules that transform an initial symbol into a sequence of other symbols according to a specific structure. With ToneGram, these symbols represent musical elements—from individual notes to entire phrases or song structures. As the composer, you design the grammar that generates music with the characteristics you want.
+
+I'm also developing a collaborative dimension where users can contribute fragments to a public archive, with other users building grammars that incorporate these fragments into their own works. This way, in contrast to the problematic use of works without permission as training data for AI music generation, the original fragment authors are credited automatically.
+
+This project is currently in private development with a collaborator.
+
+<a href="assets/tonegram-overview.pdf" target="_blank">Project Overview PDF</a>
+
+<!-- <a href="https://docs.google.com/presentation/d/1sl_fkNFAMvt3iWnSvBUsd_v2g81E6ExbCbt0efYakUY/edit?usp=sharing" target="_blank">Early Prototype Slides</a>
+<br> -->
+
+### Visual Samples
 
 <div style="margin: 30px 0; text-align: center;">
-    <div style="display: inline-block; width: 84%; margin: 0 1% 20px 1%; vertical-align: top;">
+    <div style="display: inline-block; width: 100%; margin: 0 1% 20px 1%; vertical-align: top;">
     <img src="assets/gifs/generating.gif" alt="Generating" style="width: 100%; max-width: 500px; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
     <p style="margin: 8px 0 0; font-size: 13px; color: #666;">Generating Music</p>
   </div>
-  <div style="display: inline-block; width: 38%; margin: 0 1% 20px 1%; vertical-align: top;">
+  <div style="display: inline-block; width: 51%; margin: 0 1% 20px 1%; vertical-align: top;">
     <img src="assets/gifs/editor.gif" alt="Editor" style="width: 100%; max-width: 380px; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
     <p style="margin: 8px 0 0; font-size: 13px; color: #666;">Midi Editor</p>
   </div>
 
-  <div style="display: inline-block; width: 28%; margin: 0 1% 20px 1%; vertical-align: top;">
+  <div style="display: inline-block; width: 40%; margin: 0 1% 20px 1%; vertical-align: top;">
     <img src="assets/gifs/rules.gif" alt="Rules" style="width: 100%; max-width: 280px; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
     <p style="margin: 8px 0 0; font-size: 13px; color: #666;">Rule Creation</p>
   </div>
@@ -52,9 +56,9 @@ I'm also developing a collaborative dimension where users can contribute fragmen
 
 ## Undergraduate Thesis: Formal Verification of QUIC Cryptographic Protocol
 
-My undergraduate thesis at Reed College focused on formal verification of cryptographic key exchange protocols. I used Tamarin Prover, a tool for protocol-level formal verification, to analyze the security properties of Google's QUIC protocol.
+My undergraduate thesis at Reed College focused on formal verification of cryptographic key exchange protocols. I used Tamarin Prover, a language for protocol-level formal verification, to analyze the security properties of Google's QUIC protocol.
 
-Internet communication occurs over unsecured networks where many parties can potentially view messages sent over public channels. Cryptography aims to protect these communications from malicious actors. While cryptographers can prove properties of individual cryptographic components, guaranteeing security when these components are combined into larger systems becomes increasingly complex.
+Internet communication occurs over unsecured networks where many parties can view and manipulate messages sent over public channels. Cryptography aims to protect these communications from malicious actors. While cryptographers can prove properties of individual cryptographic components on paper, guaranteeing security when these components are combined into larger systems becomes increasingly complex.
 
 In my work, I demonstrated how formal verification can be applied to automate security proofs, making it feasible to analyze both small-scale projects and large, complex real-world protocols like QUIC where manual analysis would be impractical.
 

@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
-title: Harrison Nicholls | Portfolio
-description: Cryptography, Software Prototyping, and Music Composition
+title: Harrison Nicholls
+description: Portfolio
 baseurl: ""
 url: ""
 github_username: hnicholls
@@ -12,7 +12,4 @@ logo: /assets/img/profile.jpg
 author:
   name: Harrison Nicholls
   email: nichollsharrisonj@gmail.com
-  # github: hnicholls
   linkedin: nichollsharrisonj
-# Google Analytics
-# google_analytics: UA-XXXXXXXXX-X
