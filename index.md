@@ -54,7 +54,7 @@ This project is currently in private development with a collaborator.
   </div>
 </div>
 
-## Undergraduate Thesis: Formal Verification of QUIC Cryptographic Protocol
+## Undergraduate Thesis: Formal Verification of Google's QUIC Protocol
 
 My undergraduate thesis at Reed College focused on formal verification of cryptographic key exchange protocols. I used Tamarin Prover, a language for protocol-level formal verification, to analyze the security properties of Google's QUIC protocol.
 
