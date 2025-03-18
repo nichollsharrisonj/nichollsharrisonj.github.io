@@ -26,7 +26,7 @@ I'm also developing a collaborative dimension where users can contribute fragmen
 
 This project is currently in private development with a collaborator.
 
-<a href="assets/tonegram-overview.pdf" target="_blank">Project Overview PDF</a>
+<a href="assets/tonegram-overview.pdf" target="_blank">Project Overview PDF with description of features and stack</a>
 
 <!-- <a href="https://docs.google.com/presentation/d/1sl_fkNFAMvt3iWnSvBUsd_v2g81E6ExbCbt0efYakUY/edit?usp=sharing" target="_blank">Early Prototype Slides</a>
 <br> -->
