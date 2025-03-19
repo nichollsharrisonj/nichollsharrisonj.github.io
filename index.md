@@ -78,7 +78,7 @@ In my work, I demonstrated how formal verification can be applied to automate se
 
 <div class="experience-item" style="border-left: 2px solid #005b96; padding-left: 15px; margin-bottom: 25px; ">
   <h3><a href="https://stevejobsarchive.com/">Steve Jobs Archive</a> Fellowship</h3>
-  <h4>Fellow ('23)</h4>
+  <h4>Fellow (2023-2024)</h4>
   <ul>
     <li>Developed ToneGram, a novel generative grammar-based music composition tool</li>
     <li>Presented work at the SJA final retreat</li>
@@ -100,7 +100,7 @@ In my work, I demonstrated how formal verification can be applied to automate se
 
 <div class="experience-item" style="border-left: 2px solid #005b96; padding-left: 15px; margin-bottom: 25px; ">
   <h3>SLAC (Stanford Linear Accelerator Center)</h3>
-  <h4>Technology Innovation Directorate Internship (Summers 2020-2023)</h4>
+  <h4>Technology Innovation Directorate Internship (Summers 2020-2022)</h4>
   <ul>
     <li>
       Interned at SLAC throughout college
