@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Harrison Nicholls
+<!-- # Harrison Nicholls -->
 
 ## About
 
