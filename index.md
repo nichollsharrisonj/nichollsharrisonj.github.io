@@ -14,9 +14,31 @@ I'm building a novel approach to music composition using generative grammars tha
 
 <a href="https://www.youtube.com/watch?v=mqZ5z6jlfKc&t=167s" target="_blank">Watch SJA Talk</a>
 
-<div class="video-container" style="margin-bottom: 20px">
+<div class="video-container" style="margin-bottom: 20px; display: none;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/mqZ5z6jlfKc?start=40" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<style>
+  @media (min-width: 768px) {
+    .video-container {
+      display: block !important;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .experience-item {
+      padding-left: 10px !important;
+    }
+
+    .experience-item h3 {
+      font-size: 1.2em;
+    }
+
+    .experience-item h4 {
+      font-size: 1em;
+    }
+  }
+</style>
 
 My idea in creating ToneGram is to apply Context-Free Grammars to music composition, where musical phrases have structure that can be described grammatically.
 
