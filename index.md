@@ -6,11 +6,11 @@ layout: default
 
 ## About
 
-I'm a 2023 [Steve Jobs Archive Fellow](https://stevejobsarchive.com/) with a B.A. in Computer Science and minor in Music from Reed College. I specialize in cryptography, theoretical CS, and designing user-centric tools. For much of my life, I've played the violin and composed music, which has led to my current work exploring the intersection of computer science and creative expression through musical composition.
+I'm a 2023 [Steve Jobs Archive Fellow](https://stevejobsarchive.com/) with a B.A. in Computer Science and minor in Music from Reed College. I specialize in software, cryptography, theoretical CS, and designing user-centric tools.
 
 ## ToneGram: Grammar-Based Music Composition
 
-I'm building a novel approach to music composition using generative grammars that puts artists at the center of the process. While many new digital composition tools focus on leveraging AI trained on existing musical works, ToneGram proposes a different - but still generative - approach that preserves creative ownership.
+I'm building a novel approach to music composition using generative grammars that puts artists at the center of the composing process. While many new digital composition tools focus on leveraging AI trained on existing musical works, ToneGram proposes a different - but still generative - approach that preserves creative ownership.
 
 <a href="https://www.youtube.com/watch?v=mqZ5z6jlfKc&t=167s" target="_blank">Watch SJA Talk</a>
 
@@ -40,11 +40,11 @@ I'm building a novel approach to music composition using generative grammars tha
   }
 </style>
 
-My idea in creating ToneGram is to apply Context-Free Grammars to music composition, where musical phrases have structure that can be described grammatically.
+For much of my life, I've played the violin and composed music, which led to this work exploring the intersection of computer science and creative expression. My idea in creating ToneGram is to apply Context-Free Grammars to music composition through an accessible, user-friendly platform.
 
-A "grammar" in computer-science terms is a set of replacement rules that transform an initial symbol into a sequence of other symbols according to a specific structure. With ToneGram, these symbols represent musical elements—from individual notes to entire phrases or song structures. As the composer, you design the grammar that generates music with the characteristics you want.
+A grammar is a set of replacement rules that transform an initial symbol into a sequence of other symbols according to a specific structure. My observation through my music-making experience was that musical phrases have structure that can be described grammatically. With ToneGram, these symbols represent musical elements—from individual notes to entire phrases or song structures. As the composer, you design the grammar that generates music with the characteristics you want.
 
-I'm also developing a collaborative dimension where users can contribute fragments to a public archive, with other users building grammars that incorporate these fragments into their own works. This way, in contrast to the problematic use of works without permission as training data for AI music generation, the original fragment authors are credited automatically.
+ToneGram will include a collaborative dimension where users can contribute fragments to a public archive, with other users building grammars that incorporate these fragments into their own works. This way, in contrast to the problematic use of works without permission as training data for AI music generation, the original fragment authors are credited automatically.
 
 This project is currently in private development with a collaborator.
 
@@ -80,7 +80,7 @@ This project is currently in private development with a collaborator.
 
 My undergraduate thesis at Reed College focused on formal verification of cryptographic key exchange protocols. I used Tamarin Prover, a language for protocol-level formal verification, to analyze the security properties of Google's QUIC protocol.
 
-Internet communication occurs over unsecured networks where many parties can view and manipulate messages sent over public channels. Cryptography aims to protect these communications from malicious actors. While cryptographers can prove properties of individual cryptographic components on paper, guaranteeing security when these components are combined into larger systems becomes increasingly complex.
+Internet communication occurs over unsecured networks where many parties can view and manipulate messages sent over public channels. Cryptography aims to protect these communications from malicious actors. While cryptographers can reasonably prove properties of individual cryptographic components (schemes) on paper, guaranteeing security when these components are combined into larger systems (protocols) becomes increasingly complex.
 
 In my work, I demonstrated how formal verification can be applied to automate security proofs, making it feasible to analyze both small-scale projects and large, complex real-world protocols like QUIC where manual analysis would be impractical.
 
@@ -94,7 +94,8 @@ In my work, I demonstrated how formal verification can be applied to automate se
   <h3>Cryptography Standards Lab (Penumbra) </h3>
   <h4>Information Security Engineer, full time (2024-current)</h4>
   <ul>
-    <li>Working on cryptography-related projects as well as tool development</li>
+    <li>Developing internal tool suite, including a fully local, full-stack (flask + Weaviate vector database) RAG pipeline for document management and information retrieval on sensitive documents, and many more automation projects in python.</li>
+    <li>Performing analysis and evaluation of cryptographic modules and entropy sources according to NIST cryptography standards. Relies on heavy documentation + code review and technical writing.</li>
   </ul>
 </div>
 
@@ -102,7 +103,7 @@ In my work, I demonstrated how formal verification can be applied to automate se
   <h3><a href="https://stevejobsarchive.com/">Steve Jobs Archive</a> Fellowship</h3>
   <h4>Fellow (2023-2024)</h4>
   <ul>
-    <li>Developed ToneGram, a novel generative grammar-based music composition tool</li>
+    <li>Design and development of ToneGram, a novel generative grammar-based music composition tool</li>
     <li>Presented work at the SJA final retreat</li>
   </ul>
 </div>
@@ -125,7 +126,7 @@ In my work, I demonstrated how formal verification can be applied to automate se
   <h4>Technology Innovation Directorate Internship (Summers 2020-2022)</h4>
   <ul>
     <li>
-      Interned at SLAC throughout college
+      Interned at SLAC in the Technology Innovation Directorate division throughout college
     </li>
     <li>Contributed lots of Python code to SLAC's internal tools and projects, including a medical device, a telescope sensor array, and a live sensor readout tool</li>
   </ul>
