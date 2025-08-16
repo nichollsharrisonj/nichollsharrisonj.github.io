@@ -91,8 +91,8 @@ In my work, I demonstrated how formal verification can be applied to automate se
   <h3>Cryptography Standards Lab (Penumbra) </h3>
   <h4>Information Security Engineer, full time (2024-current)</h4>
   <ul>
-    <li>Developing internal tool suite, including a fully local, full-stack RAG pipeline for document management and information retrieval on sensitive documents, and many more automation and data-handling projects in python.</li>
-    <li>Performing analysis and evaluation of cryptographic modules and entropy sources according to NIST cryptography standards. This role involves heavy documentation + code review and technical writing.</li>
+    <li>Developing internal tool suite, including a fully local, full-stack RAG pipeline for document management and information retrieval on sensitive documents, and many more automation and data-handling projects in python</li>
+    <li>Performing analysis and evaluation of cryptographic modules and entropy sources according to NIST cryptography standards. This role involves heavy documentation + code review and technical writing</li>
   </ul>
 </div>
 
