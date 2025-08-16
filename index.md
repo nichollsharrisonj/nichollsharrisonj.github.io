@@ -94,8 +94,8 @@ In my work, I demonstrated how formal verification can be applied to automate se
   <h3>Cryptography Standards Lab (Penumbra) </h3>
   <h4>Information Security Engineer, full time (2024-current)</h4>
   <ul>
-    <li>Developing internal tool suite, including a fully local, full-stack (flask + Weaviate vector database) RAG pipeline for document management and information retrieval on sensitive documents, and many more automation projects in python.</li>
-    <li>Performing analysis and evaluation of cryptographic modules and entropy sources according to NIST cryptography standards. Relies on heavy documentation + code review and technical writing.</li>
+    <li>Developing internal tool suite, including a fully local, full-stack RAG pipeline for document management and information retrieval on sensitive documents, and many more automation and data-handling projects in python.</li>
+    <li>Performing analysis and evaluation of cryptographic modules and entropy sources according to NIST cryptography standards. This role involves heavy documentation + code review and technical writing.</li>
   </ul>
 </div>
 
@@ -113,7 +113,7 @@ In my work, I demonstrated how formal verification can be applied to automate se
   <h4>B.A. in Computer Science, Minor in Music ('23)</h4>
   <ul>
     <li>
-      Senior thesis on formal verification of Google's QUIC cryptographic protocol
+      <p>Senior thesis on formal verification of Google's QUIC cryptographic protocol </p>
       <a href="assets/nicholls_harrison_undergraduate_thesis.pdf" download class="download-button">My undergraduate thesis (PDF)</a>
     </li>
     <li>Focused on cryptography, theoretical CS, and music composition</li>
