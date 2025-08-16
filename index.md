@@ -50,9 +50,6 @@ This project is currently in private development with a collaborator.
 
 <a href="assets/tonegram-overview.pdf" target="_blank">Project Overview PDF with description of features and stack</a>
 
-<!-- <a href="https://docs.google.com/presentation/d/1sl_fkNFAMvt3iWnSvBUsd_v2g81E6ExbCbt0efYakUY/edit?usp=sharing" target="_blank">Early Prototype Slides</a>
-<br> -->
-
 ### Visual Samples
 
 <div style="margin: 30px 0; text-align: center;">
@@ -113,8 +110,7 @@ In my work, I demonstrated how formal verification can be applied to automate se
   <h4>B.A. in Computer Science, Minor in Music ('23)</h4>
   <ul>
     <li>
-      <p>Senior thesis on formal verification of Google's QUIC cryptographic protocol </p>
-      <a href="assets/nicholls_harrison_undergraduate_thesis.pdf" download class="download-button">My undergraduate thesis (PDF)</a>
+      Senior thesis on formal verification of Google's QUIC cryptographic protocol - <a href="assets/nicholls_harrison_undergraduate_thesis.pdf" download class="download-button">My undergraduate thesis (PDF)</a>
     </li>
     <li>Focused on cryptography, theoretical CS, and music composition</li>
     <li><a href="https://www.youtube.com/watch?v=ZYXl-MwN-0s&t=122s" target="_blank">A work for my composition class titled 'Miniatures'</a> featured in a student composition showcase</li>
@@ -128,7 +124,7 @@ In my work, I demonstrated how formal verification can be applied to automate se
     <li>
       Interned at SLAC in the Technology Innovation Directorate division throughout college
     </li>
-    <li>Contributed lots of Python code to SLAC's internal tools and projects, including a medical device, a telescope sensor array, and a live sensor readout tool</li>
+    <li>Contributed lots of Python code to SLAC's internal tools, libraries, and projects. Work included contributions to a medical device, a telescope sensor array, and a live sensor readout tool</li>
   </ul>
 </div>
 
