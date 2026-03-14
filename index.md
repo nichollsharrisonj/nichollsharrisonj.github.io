@@ -75,7 +75,7 @@ This project is currently in private development with a collaborator.
 
 ## Undergraduate Thesis: Formal Verification of Google's QUIC Protocol
 
-My undergraduate thesis at Reed College focused on formal verification of cryptographic key exchange protocols. I used Tamarin Prover, a language for protocol-level formal verification, to analyze the security properties of Google's QUIC protocol.
+My undergraduate thesis at Reed College focused on formal verification of cryptographic key exchange protocols. I used Tamarin Prover, a language for protocol-level formal verification, to analyze the security properties of Google's QUIC key-exchange protocol.
 
 Internet communication occurs over unsecured networks where many parties can view and manipulate messages sent over public channels. Cryptography aims to protect these communications from malicious actors. While cryptographers can reasonably prove properties of individual cryptographic components on paper, guaranteeing security when these components are combined into larger systems becomes increasingly complex.
 
@@ -91,8 +91,8 @@ In my work, I demonstrated how formal verification can be applied to automate se
   <h3>Stanford University (Tech, Impact and Policy Center)</h3>
   <h4>Software Engineering Consultant (2026–Present)</h4>
   <ul>
-    <li>Sole engineer on a full-stack research platform studying the effects of phone-ban policies in U.S. public schools — a nationally-scoped study involving longitudinal survey data across multiple timepoints. Built for non-technical researchers to go from raw data exports to interactive analysis without touching application code.</li>
-    <li>Designed a config-driven architecture that lets researchers define versioned survey analysis specifications in human-readable form, cleanly separating research intent from implementation and enabling rapid iteration as study design evolves.</li>
+    <li>Sole engineer on a full-stack research platform studying the effects of phone-ban policies in U.S. public schools — a nationally-scoped study involving longitudinal survey data relating to consequential policy changes. Built for non-technical researchers to go from raw data exports to interactive analysis without touching application code.</li>
+    <li>Designed a config-driven architecture that lets researchers define versioned survey analysis specifications in human-readable form.</li>
     <li>Owned the full pipeline from data ingestion through deployment, collaborating with Stanford infrastructure engineers to ship within a managed Kubernetes environment.</li>
   </ul>
 </div>
@@ -112,7 +112,16 @@ In my work, I demonstrated how formal verification can be applied to automate se
   <h4>Fellow (2023–2024)</h4>
   <ul>
     <li>Selected as 1 of 9 inaugural Fellows nationally for a year-long independent project at the intersection of technology and the arts.</li>
-    <li>Designing and developing ToneGram, a grammar-based music composition platform, and presented the work at the SJA Annual Retreat to an audience of technology and arts leaders.</li>
+    <li>Designing and developing ToneGram, a grammar-based music composition platform, presented the work at the SJA Annual Retreat to an audience of technology and arts leaders.</li>
+  </ul>
+</div>
+
+<div class="experience-item" style="border-left: 2px solid #005b96; padding-left: 15px; margin-bottom: 25px; ">
+  <h3>SLAC National Accelerator Laboratory</h3>
+  <h4>Software Engineering Intern, Technology Innovation Directorate (Summers 2020–2022)</h4>
+  <ul>
+    <li>Built sensor visualization and live readout tools for the Electronics Engineering group, enabling scientists to quickly visualize and debug real-time sensor data during hardware development.</li>
+    <li>Contributed to several research projects, including the CMB-S4 telescope sensor array and a medical scanning device.</li>
   </ul>
 </div>
 
@@ -125,15 +134,6 @@ In my work, I demonstrated how formal verification can be applied to automate se
     </li>
     <li>Focused on cryptography, theoretical CS, and music composition.</li>
     <li><a href="https://www.youtube.com/watch?v=ZYXl-MwN-0s&t=122s" target="_blank">'Miniatures'</a>, a work for my composition class, featured in a student composition showcase.</li>
-  </ul>
-</div>
-
-<div class="experience-item" style="border-left: 2px solid #005b96; padding-left: 15px; margin-bottom: 25px; ">
-  <h3>SLAC National Accelerator Laboratory</h3>
-  <h4>Software Engineering Intern, Technology Innovation Directorate (Summers 2020–2022)</h4>
-  <ul>
-    <li>Built sensor visualization and live readout tools for the Electronics Engineering group, enabling scientists to quickly visualize and debug real-time sensor data during hardware development.</li>
-    <li>Contributed to several research projects, including the CMB-S4 telescope sensor array and a medical scanning device.</li>
   </ul>
 </div>
 
