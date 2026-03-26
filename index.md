@@ -48,9 +48,9 @@ ToneGram will include a collaborative dimension where users can contribute fragm
 
 This project is currently in private development with a collaborator.
 
-<a href="assets/tonegram-overview.pdf" target="_blank">Project Overview PDF with description of features and stack</a>
+<a href="assets/tonegram-overview.pdf" target="_blank">Overview PDF</a>
 
-### Visual Samples
+### Samples
 
 <div style="margin: 30px 0; text-align: center;">
     <div style="display: inline-block; width: 100%; margin: 0 1% 20px 1%; vertical-align: top;">
@@ -93,7 +93,7 @@ In my work, I demonstrated how formal verification can be applied to automate se
   <ul>
     <li>Sole engineer on a full-stack research platform studying the effects of phone-ban policies in U.S. public schools — a nationally-scoped study involving longitudinal survey data relating to consequential policy changes. Built for non-technical researchers to go from raw data exports to interactive analysis without touching application code.</li>
     <li>Designed a config-driven architecture that lets researchers define versioned survey analysis specifications in human-readable form.</li>
-    <li>Owned the full pipeline from data ingestion through deployment, collaborating with Stanford infrastructure engineers to ship within a managed Kubernetes environment.</li>
+    <li>Collaborated with Stanford infrastructure engineers to ship within a Stanford's Kubernetes environment.</li>
   </ul>
 </div>
 
