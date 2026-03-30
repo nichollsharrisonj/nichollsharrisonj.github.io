@@ -73,7 +73,7 @@ This project is currently in private development with a collaborator.
   </div>
 </div>
 
-## Undergraduate Thesis: Formal Verification of Google's QUIC Protocol
+## Formal Verification of Google's QUIC Protocol
 
 My undergraduate thesis at Reed College focused on formal verification of cryptographic key exchange protocols. I used Tamarin Prover, a language for protocol-level formal verification, to analyze the security properties of Google's QUIC key-exchange protocol.
 
@@ -83,6 +83,9 @@ In my work, I demonstrated how formal verification can be applied to automate se
 
 <div class="project-links" style="margin-bottom: 20px">
   <a href="assets/tamarin_quic.pdf" target="_blank">Thesis PDF</a>
+</div>
+
+<div class="project-links" style="margin-bottom: 20px">
   <a href="assets/tamarin_quic_slides.pdf" target="_blank">Slides</a>
 </div>
 
@@ -104,7 +107,7 @@ In my work, I demonstrated how formal verification can be applied to automate se
   <ul>
     <li>Built a fully in-house document retrieval system that lets engineers search and query large volumes of sensitive technical documentation securely and locally. This system was later adopted by the lab's parent organization to launch their AI initiative for cybersecurity compliance workflows in Europe.</li>
     <li>Re-architected the lab's report-writing workflow from manual handoff into a version-controlled, automated pipeline on a self-administered Linux server, significantly reducing manual labor and human error in producing NIST-submittable artifacts.</li>
-    <li>Evaluated cryptographic software and entropy sources against NIST standards (ISO/IEC 19790). Entropy work included contributing to the wolfSSL library.</li>
+    <li>Evaluated cryptographic software and entropy sources against NIST standards (ISO/IEC 19790).</li>
   </ul>
 </div>
 
