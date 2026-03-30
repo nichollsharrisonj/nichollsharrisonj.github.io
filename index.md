@@ -8,6 +8,9 @@ layout: default
 
 I'm a 2023 [Steve Jobs Archive Fellow](https://stevejobsarchive.com/) with a B.A. in Computer Science and minor in Music from Reed College. I build research tools and data systems that make complex information accessible — for scientists, policy researchers, and creative practitioners. My work spans information retrieval, analytical platforms, security research, and generative creative technologies.
 
+<div class="project-links" style="margin-bottom: 20px">
+  <a href="assets/harrison_nicholls_resume.pdf" target="_blank">My Resume</a>
+</div>
 ## ToneGram: Grammar-Based Music Composition
 
 I'm building a novel approach to music composition using generative grammars that puts artists at the center of the composing process. While many new digital composition tools focus on leveraging AI trained on existing musical works, ToneGram proposes a different — but still generative — approach that preserves creative ownership.
