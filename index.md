@@ -82,7 +82,8 @@ Internet communication occurs over unsecured networks where many parties can vie
 In my work, I demonstrated how formal verification can be applied to automate security proofs, making it feasible to analyze both small-scale projects and large, complex real-world protocols like QUIC where manual analysis would be impractical.
 
 <div class="project-links" style="margin-bottom: 20px">
-  <a href="assets/tamarin_quic.pdf" target="_blank">Read Full Thesis PDF</a>
+  <a href="assets/tamarin_quic.pdf" target="_blank">Thesis PDF</a>
+  <a href="assets/tamarin_quic_slides.pdf" target="_blank">Slides</a>
 </div>
 
 ## Experience
