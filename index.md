@@ -137,7 +137,7 @@ In my work, I demonstrated how formal verification can be applied to automate se
   <h4>B.A. in Computer Science, Minor in Music ('23)</h4>
   <ul>
     <li>
-      Senior thesis on formal verification of Google's QUIC cryptographic protocol — <a href="assets/nicholls_harrison_undergraduate_thesis.pdf" download class="download-button">thesis PDF</a>
+      Senior thesis on formal verification of Google's QUIC cryptographic protocol — <a href="assets/tamarin_quic.pdf" download class="download-button">thesis PDF</a>
     </li>
     <li>Focused on cryptography, theoretical CS, and music composition.</li>
     <li><a href="https://www.youtube.com/watch?v=ZYXl-MwN-0s&t=122s" target="_blank">'Miniatures'</a>, a work for my composition class, featured in a student composition showcase.</li>
