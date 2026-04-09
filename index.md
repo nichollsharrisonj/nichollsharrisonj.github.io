@@ -6,7 +6,7 @@ layout: default
 
 ## About
 
-I'm a 2023 [Steve Jobs Archive Fellow](https://stevejobsarchive.com/) with a B.A. in Computer Science and minor in Music from Reed College. I build research tools and data systems that make complex information accessible — for scientists, policy researchers, and creative practitioners. My work spans information retrieval, analytical platforms, security research, and generative creative technologies.
+I'm a 2023 [Steve Jobs Archive Fellow](https://stevejobsarchive.com/) with a B.A. in Computer Science and minor in Music from Reed College. I specialize in software, security, theoretical CS, and building user-centric tools including research instruments and creative technologies.
 
 <div class="project-links" style="margin-bottom: 20px">
   <a href="assets/harrison_nicholls_resume.pdf" target="_blank">My Resume</a>
