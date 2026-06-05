@@ -98,9 +98,7 @@ In my work, I demonstrated how formal verification can be applied to automate se
   <h3>Stanford University (Tech, Impact and Policy Center)</h3>
   <h4>Software Engineering Consultant (2026–Present)</h4>
   <ul>
-    <li>Sole engineer on a full-stack research platform studying the effects of phone-ban policies in U.S. public schools — a nationally-scoped study involving longitudinal survey data relating to consequential policy changes. Built for non-technical researchers to go from raw data exports to interactive analysis without touching application code.</li>
-    <li>Designed a config-driven architecture that lets researchers define versioned survey analysis specifications in human-readable form.</li>
-    <li>Collaborated with Stanford infrastructure engineers to ship within a Stanford's Kubernetes environment.</li>
+    <li>Sole engineer on several research projects.
   </ul>
 </div>
 
@@ -108,7 +106,7 @@ In my work, I demonstrated how formal verification can be applied to automate se
   <h3>Penumbra Security (Cryptography Standards Lab)</h3>
   <h4>Information Security Engineer (2024–Present)</h4>
   <ul>
-    <li>Built a fully in-house document retrieval system that lets engineers search and query large volumes of sensitive technical documentation securely and locally. This system was later adopted by the lab's parent organization to launch their AI initiative for cybersecurity compliance workflows in Europe.</li>
+    <li>Built a fully local document retrieval system that lets engineers automate information retrieval over large volumes of sensitive technical documentation securely and locally. This system was later adopted by the lab's parent organization to launch their AI initiative for cybersecurity compliance workflows in Europe.</li>
     <li>Re-architected the lab's report-writing workflow from manual handoff into a version-controlled, automated pipeline on a self-administered Linux server, significantly reducing manual labor and human error in producing NIST-submittable artifacts.</li>
     <li>Evaluated cryptographic software and entropy sources against NIST standards (ISO/IEC 19790).</li>
   </ul>
