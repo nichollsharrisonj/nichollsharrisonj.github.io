@@ -98,7 +98,7 @@ In my work, I demonstrated how formal verification can be applied to automate se
   <h3>Stanford University (Tech, Impact and Policy Center)</h3>
   <h4>Software Engineering Consultant (2026–Present)</h4>
   <ul>
-    <li>Sole engineer on several research projects.
+    <li>Sole engineer on several research projects.</li>
   </ul>
 </div>
 
